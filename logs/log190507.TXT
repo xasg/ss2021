@@ -1,0 +1,10 @@
+00:46:27  USER           LOGIN                                             Datos: usuario1||Pr0mT3L19
+00:46:27  USER           LOGIN                                             Datos: usuario1||o42.php
+08:51:13  USER           LOGIN                                             Datos: usuario1||Pr0mT3L19
+08:51:13  USER           LOGIN                                             Datos: usuario1||o42.php
+08:52:02  USER           LOGIN                                             Datos: usuario1||Pr0mT3L19
+08:52:02  USER           LOGIN                                             Datos: usuario1||2018.php
+12:38:08  USER           LOGIN                                             Datos: usuario1||pr0mt3l19
+12:38:08  USER           LOGIN                                             Datos: usuario1||2018.php
+14:05:41  USER           LOGIN                                             Datos: usuario1||Pr0mT3L19
+14:05:41  USER           LOGIN                                             Datos: usuario1||2018.php

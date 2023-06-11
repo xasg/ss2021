@@ -1,0 +1,2 @@
+15:49:24  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+15:49:24  USER           LOGIN                                             Datos: colaborador1||contratos.php

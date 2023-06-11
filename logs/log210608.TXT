@@ -1,0 +1,12 @@
+22:05:37  USER           LOGIN                                             Datos: usuario1||Pr0mT3L19
+22:05:37  USER           LOGIN                                             Datos: usuario1||matrizss.php
+22:06:39  USER           LOGIN                                             Datos: acceso@mail.com||1a2b3C
+22:06:39  USER           LOGIN                                             Error en datos de Acceso: acceso@mail.com||1a2b3C
+22:07:29  USER           LOGIN                                             Datos: mtrojosericardez@gmail.com||15108446
+22:07:29  USER           LOGIN                                             Error en datos de Acceso: mtrojosericardez@gmail.com||15108446
+22:08:53  USER           LOGIN                                             Datos: consultass||SsT3L18
+22:08:53  USER           LOGIN                                             Datos: consultass||matrizss.php
+22:09:47  USER           LOGIN                                             Datos: mtrojosericardez@gmail.com||15108446
+22:09:47  USER           LOGIN                                             Error en datos de Acceso: mtrojosericardez@gmail.com||15108446
+22:15:47  USER           LOGIN                                             Datos: consultass||SsT3L18
+22:15:47  USER           LOGIN                                             Datos: consultass||matrizss.php

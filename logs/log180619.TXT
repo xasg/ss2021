@@ -1,0 +1,28 @@
+16:04:23  USER           LOGIN                                             Datos: ||
+16:04:23  USER           LOGIN                                             Error en datos de Acceso: colaborador1||Pr0mT3L01
+16:05:53  USER           LOGIN                                             Datos: ||
+16:05:53  USER           LOGIN                                             Datos: colaborador1||art42.php
+16:07:13  USER           LOGIN                                             Datos: ||
+16:07:13  USER           LOGIN                                             Error en datos de Acceso: colaborador1|| Pr0mT3LC01
+16:07:53  USER           LOGIN                                             Datos: ||
+16:07:53  USER           LOGIN                                             Datos: colaborador1||art42.php
+16:08:24  USER           LOGIN                                             Datos: ||
+16:08:24  USER           LOGIN                                             Datos: colaborador1||art42.php
+16:10:22  USER           LOGIN                                             Datos: ||
+16:10:22  USER           LOGIN                                             Datos: colaborador1||art42.php
+16:13:16  USER           LOGIN                                             Datos: ||
+16:13:16  USER           LOGIN                                             Datos: colaborador1||art42.php
+16:15:09  USER           LOGIN                                             Datos: ||
+16:15:09  USER           LOGIN                                             Datos: colaborador1||art42.php
+17:45:18  USER           LOGIN                                             Datos: ||
+17:45:18  USER           LOGIN                                             Datos: colaborador1||art42.php
+17:45:49  USER           CREATE                                            
+17:46:04  USER           CREATE                                            Datos: sasasas||alguien
+17:46:04  USER           CREATE                                            INSERT INTO cat_pedido (tp_adjudicacion, num_pedido, num_piva, nom_proveedor, inf_objeto) VALUES ('42', 'sasasas', '3.1416', 'alguien', 'max')
+17:46:04  USER           CREATE                                            Insert OK
+17:52:27  USER           CREATE                                            
+17:52:41  USER           CREATE                                            Datos: ssx||jikhhkjhkjh
+17:52:41  USER           CREATE                                            INSERT INTO cat_pedido (tp_adjudicacion, num_pedido, num_piva, nom_proveedor, inf_objeto) VALUES ('42', 'ssx', '3.99', 'jikhhkjhkjh', 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+17:52:41  USER           CREATE                                            Insert OK
+17:56:13  USER           LOGIN                                             Datos: ||
+17:56:13  USER           LOGIN                                             Datos: colaborador1||art42.php

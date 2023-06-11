@@ -1,0 +1,4 @@
+17:21:02  USER           LOGIN                                             Datos: consultas||SsT3L18
+17:21:02  USER           LOGIN                                             Error en datos de Acceso: consultas||SsT3L18
+17:21:14  USER           LOGIN                                             Datos: consultass||SsT3L18
+17:21:14  USER           LOGIN                                             Datos: consultass||matrizss.php

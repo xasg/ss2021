@@ -1,0 +1,4 @@
+17:36:27  USER           LOGIN                                             Datos: promtel2018|| Pr0mT3L18
+17:36:27  USER           LOGIN                                             Error en datos de Acceso: promtel2018|| Pr0mT3L18
+17:36:38  USER           LOGIN                                             Datos: promtel2018|| Pr0mT3L18
+17:36:38  USER           LOGIN                                             Error en datos de Acceso: promtel2018|| Pr0mT3L18

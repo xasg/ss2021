@@ -1,0 +1,9 @@
+18:46:59  USER           LOGIN                                             Datos: adminss||$salud
+18:47:28  USER           LOGIN                                             Datos: adminss||$salud
+18:47:28  USER           LOGIN                                             Datos: adminss||inicio.php
+18:59:52  USER           LOGIN                                             Datos: adminss||$salud
+18:59:52  USER           LOGIN                                             Datos: adminss||inicio.php
+19:03:31  USER           LOGIN                                             Datos: adminss||$salud
+19:03:31  USER           LOGIN                                             Datos: adminss||inicio.php
+19:23:32  USER           LOGIN                                             Datos: adminss||$salud
+19:23:32  USER           LOGIN                                             Datos: adminss||inicio.php

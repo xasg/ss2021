@@ -1,0 +1,6 @@
+20:11:57  USER           LOGIN                                             Datos: admin||Fs666AdQe
+20:11:57  USER           LOGIN                                             Error en datos de Acceso: admin||Fs666AdQe
+20:12:05  USER           LOGIN                                             Datos: admin||Fs666AdQe
+20:12:05  USER           LOGIN                                             Error en datos de Acceso: admin||Fs666AdQe
+20:14:19  USER           LOGIN                                             Datos: consultass||SsT3L18
+20:14:19  USER           LOGIN                                             Datos: consultass||matrizss.php

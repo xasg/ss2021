@@ -1,0 +1,29 @@
+00:21:24  USER           LOGIN                                             Datos: sysadminpromtel||Ws.119.AdQe
+00:21:24  USER           LOGIN                                             Datos: sysadminpromtel||admin/dash.php
+00:34:36  USER           LOGIN                                             Datos: sysadminpromtel||Ws.119.AdQe
+00:34:36  USER           LOGIN                                             Datos: sysadminpromtel||dash.php
+00:37:47  USER           LOGIN                                             Datos: promtel1||Acc3$019
+00:37:47  USER           LOGIN                                             Datos: promtel1||contratos.php
+00:56:19  USER           LOGIN                                             Datos: promtel1||Acc3$019
+00:56:19  USER           LOGIN                                             Datos: promtel1||contratos.php
+01:00:19  USER           CREATE                                            
+01:09:50  USER           LOGIN                                             Datos: promtel1||Acc3$019
+01:09:50  USER           LOGIN                                             Datos: promtel1||contratos.php
+01:47:08  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+01:47:08  USER           LOGIN                                             Datos: observador1||o42.php
+05:58:56  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+05:58:56  USER           LOGIN                                             Datos: observador1||o42.php
+12:25:26  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+12:25:26  USER           LOGIN                                             Datos: observador1||o42.php
+12:28:00  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+12:28:00  USER           LOGIN                                             Datos: observador1||o42.php
+14:46:33  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+14:46:33  USER           LOGIN                                             Error en datos de Acceso: colaborador1||Pr0mT3LC01
+15:09:28  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+15:09:28  USER           LOGIN                                             Datos: observador1||o42.php
+16:22:28  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+16:22:28  USER           LOGIN                                             Datos: observador1||o42.php
+17:54:13  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+17:54:13  USER           LOGIN                                             Datos: observador1||o42.php
+17:58:35  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+17:58:35  USER           LOGIN                                             Datos: observador1||o42.php

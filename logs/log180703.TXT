@@ -1,0 +1,187 @@
+08:55:25  USERDEVELOPER  INIT                                              Subir archivos
+08:55:25  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOCGSIBCVCT-RXLV-DAJ-293-17
+08:55:25  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/CGSIBCVCT-RXLV-DAJ-293-17/
+08:55:25  USERDEVELOPER  LOG                                               1_focon_03_requisicionError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+08:55:25  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 18_pedido...
+08:55:25  USERDEVELOPER  UPDATE FILE                                       contrato seguridad.pdf
+08:55:25  USERDEVELOPER  UPDATE PATH                                       docs/CGSIBCVCT-RXLV-DAJ-293-17/contratoseguridad.pdf
+08:55:25  USERDEVELOPER  UPDATE FILE                                       El archivo contratoseguridad.pdf se ha almacenado en forma exitosa.
+08:55:25  USERDEVELOPER  QUERY                                             Update OK.
+08:55:25  USERDEVELOPER  LOG                                               19_clcError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               entregableError==>[4]
+08:55:25  USERDEVELOPER  LOG                                               anexo1Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               anexo2Error==>[4]
+08:55:25  USERDEVELOPER  LOG                                               anexo3Error==>[4]
+08:58:25  USERDEVELOPER  INIT                                              Subir archivos
+08:58:25  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROMTEL-SERV-LPN-002-2017
+08:58:25  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROMTEL-SERV-LPN-002-2017/
+08:58:25  USERDEVELOPER  LOG                                               1_focon_03_requisicionError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+08:58:25  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+08:58:25  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+08:58:25  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+08:58:25  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+08:58:25  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+08:58:25  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+08:58:25  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+08:58:25  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 18_pedido...
+08:58:25  USERDEVELOPER  UPDATE FILE                                       Contrato Auditor Tecnico.pdf
+08:58:25  USERDEVELOPER  UPDATE PATH                                       docs/PROMTEL-SERV-LPN-002-2017/ContratoAuditorTecnico.pdf
+08:58:25  USERDEVELOPER  UPDATE FILE                                       Error, el archivo ya existe y se elimina previamente para subir la actualizacióndocs/PROMTEL-SERV-LPN-002-2017/ContratoAuditorTecnico.pdf
+
+08:58:26  USERDEVELOPER  UPDATE FILE                                       El archivo ContratoAuditorTecnico.pdf se ha almacenado en forma exitosa.
+08:58:26  USERDEVELOPER  QUERY                                             Update OK.
+08:58:26  USERDEVELOPER  LOG                                               19_clcError==>[4]
+08:58:26  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+08:58:26  USERDEVELOPER  LOG                                               entregableError==>[4]
+08:58:26  USERDEVELOPER  LOG                                               anexo1Error==>[4]
+08:58:26  USERDEVELOPER  LOG                                               anexo2Error==>[4]
+08:58:26  USERDEVELOPER  LOG                                               anexo3Error==>[4]
+09:03:23  USERDEVELOPER  INIT                                              Subir archivos
+09:03:23  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDO8971-1787-26-VII-17
+09:03:23  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/UNAM/
+09:03:23  USERDEVELOPER  LOG                                               1_focon_03_requisicionError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+09:03:23  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+09:03:23  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+09:03:23  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+09:03:23  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+09:03:23  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+09:03:23  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+09:03:23  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+09:03:23  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 18_pedido...
+09:03:23  USERDEVELOPER  UPDATE FILE                                       Contrato Firmado UNAM.pdf
+09:03:23  USERDEVELOPER  UPDATE PATH                                       docs/UNAM/ContratoFirmadoUNAM.pdf
+09:03:23  USERDEVELOPER  UPDATE FILE                                       Error, el archivo ya existe y se elimina previamente para subir la actualizacióndocs/UNAM/ContratoFirmadoUNAM.pdf
+
+09:03:26  USERDEVELOPER  UPDATE FILE                                       El archivo ContratoFirmadoUNAM.pdf se ha almacenado en forma exitosa.
+09:03:26  USERDEVELOPER  QUERY                                             Update OK.
+09:03:26  USERDEVELOPER  LOG                                               19_clcError==>[4]
+09:03:26  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+09:03:26  USERDEVELOPER  LOG                                               entregableError==>[4]
+09:03:26  USERDEVELOPER  LOG                                               anexo1Error==>[4]
+09:03:26  USERDEVELOPER  LOG                                               anexo2Error==>[4]
+09:03:26  USERDEVELOPER  LOG                                               anexo3Error==>[4]
+09:05:06  USERDEVELOPER  INIT                                              Subir archivos
+09:05:06  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOCA-PROMTEL-001-2017
+09:05:06  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/CA-PROMTEL-001-2017/
+09:05:06  USERDEVELOPER  LOG                                               1_focon_03_requisicionError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+09:05:06  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+09:05:06  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+09:05:06  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+09:05:06  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+09:05:06  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+09:05:06  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+09:05:06  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+09:05:06  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 18_pedido...
+09:05:06  USERDEVELOPER  UPDATE FILE                                       contrato arrendamiento.pdf
+09:05:06  USERDEVELOPER  UPDATE PATH                                       docs/CA-PROMTEL-001-2017/contratoarrendamiento.pdf
+09:05:06  USERDEVELOPER  UPDATE FILE                                       Error, el archivo ya existe y se elimina previamente para subir la actualizacióndocs/CA-PROMTEL-001-2017/contratoarrendamiento.pdf
+
+09:05:09  USERDEVELOPER  UPDATE FILE                                       El archivo contratoarrendamiento.pdf se ha almacenado en forma exitosa.
+09:05:09  USERDEVELOPER  QUERY                                             Update OK.
+09:05:09  USERDEVELOPER  LOG                                               19_clcError==>[4]
+09:05:09  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+09:05:09  USERDEVELOPER  LOG                                               entregableError==>[4]
+09:05:09  USERDEVELOPER  LOG                                               anexo1Error==>[4]
+09:05:09  USERDEVELOPER  LOG                                               anexo2Error==>[4]
+09:05:09  USERDEVELOPER  LOG                                               anexo3Error==>[4]
+09:06:13  USERDEVELOPER  INIT                                              Subir archivos
+09:06:13  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROMTEL-AD-0001-17
+09:06:13  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROMTEL-AD-0001-17/
+09:06:13  USERDEVELOPER  LOG                                               1_focon_03_requisicionError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+09:06:13  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 18_pedido...
+09:06:13  USERDEVELOPER  UPDATE FILE                                       Contrato _ E. Churubusco.pdf
+09:06:13  USERDEVELOPER  UPDATE PATH                                       docs/PROMTEL-AD-0001-17/Contrato_E.Churubusco.pdf
+09:06:13  USERDEVELOPER  UPDATE FILE                                       Error, el archivo ya existe y se elimina previamente para subir la actualizacióndocs/PROMTEL-AD-0001-17/Contrato_E.Churubusco.pdf
+
+09:06:13  USERDEVELOPER  UPDATE FILE                                       El archivo Contrato_E.Churubusco.pdf se ha almacenado en forma exitosa.
+09:06:13  USERDEVELOPER  QUERY                                             Update OK.
+09:06:13  USERDEVELOPER  LOG                                               19_clcError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               entregableError==>[4]
+09:06:13  USERDEVELOPER  LOG                                               anexo1Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               anexo2Error==>[4]
+09:06:13  USERDEVELOPER  LOG                                               anexo3Error==>[4]
+09:18:39  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+09:18:39  USER           LOGIN                                             Datos: colaborador1||art42.php
+16:36:59  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+16:36:59  USER           LOGIN                                             Datos: colaborador1||art42.php

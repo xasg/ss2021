@@ -1,0 +1,4 @@
+07:47:06  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+07:47:06  USER           LOGIN                                             Datos: colaborador1||art42.php
+09:36:41  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+09:36:41  USER           LOGIN                                             Datos: colaborador1||art42.php

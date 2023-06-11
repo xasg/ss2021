@@ -1,0 +1,11 @@
+16:35:58  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+16:35:58  USER           LOGIN                                             Datos: colaborador1||art42.php
+18:13:58  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+18:13:58  USER           LOGIN                                             Datos: colaborador1||art42.php
+19:01:35  USERDEVELOPER  INIT                                              Update pedido
+19:01:35  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::207,524.00::CULTURA Y TALENTO A LA MEDIDA, S.A. DE C.V.::DEFINICIÓN DE FILOSOFÍA CORPORATIVA Y ESQUEMA DE TRABAJO FLEXIBLE, WORKSHOPS Y NARRACIÓN, IDENTIDAD CORPORATIVA. DOCUMENTOS PARA DEFINICIÓN DE METAS Y BENEFICIARIOS, POLÍTICAS Y RECOMENDACIONES PARA EL LAYOUT DEL TRABAJO FLEXIBLE. PLAN DE COMUNICACIÓN: CREACIÓN DE LA IDENTIDAD VISUAL Y ESTRATEGIA>>
+19:01:35  USERDEVELOPER  QUERY                                             Update OK.
+19:32:04  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+19:32:04  USER           LOGIN                                             Datos: colaborador1||art42.php
+19:32:35  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+19:32:35  USER           LOGIN                                             Datos: colaborador1||contratos.php

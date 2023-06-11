@@ -1,0 +1,5 @@
+01:52:53  USER           LOGIN                                             Datos: consultass||SsT3L18
+01:52:53  USER           LOGIN                                             Datos: consultass||matrizss.php
+13:16:22  USERDEVELOPER  INIT                                              Subir archivos
+13:16:22  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDO
+13:16:22  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: 

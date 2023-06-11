@@ -1,0 +1,6 @@
+15:23:36  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+15:23:36  USER           LOGIN                                             Datos: colaborador1||contratos.php
+21:33:04  USER           LOGIN                                             Datos: admin||123
+21:33:04  USER           LOGIN                                             Error en datos de Acceso: admin||123
+21:37:35  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+21:37:35  USER           LOGIN                                             Datos: colaborador1||contratos.php

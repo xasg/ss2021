@@ -1,0 +1,16 @@
+09:50:15  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+09:50:15  USER           LOGIN                                             Datos: promtel2017||contratos.php
+09:50:57  USER           LOGIN                                             Datos: promtel2018||Pr0mT3L18
+09:50:57  USER           LOGIN                                             Datos: promtel2018||2018.php
+09:52:32  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+09:52:32  USER           LOGIN                                             Datos: promtel2017||contratos.php
+09:54:21  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+09:54:21  USER           LOGIN                                             Datos: promtel2017||contratos.php
+14:02:45  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+14:02:45  USER           LOGIN                                             Datos: promtel2017||contratos.php
+15:23:48  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+15:23:48  USER           LOGIN                                             Datos: promtel2017||contratos.php
+17:06:03  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+17:06:03  USER           LOGIN                                             Datos: promtel2017||contratos.php
+20:07:34  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+20:07:35  USER           LOGIN                                             Datos: promtel2017||contratos.php

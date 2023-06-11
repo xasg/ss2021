@@ -1,0 +1,8 @@
+16:04:37  USER           LOGIN                                             Datos:  usuario1 ||Pr0mT3L19 
+16:04:37  USER           LOGIN                                             Error en datos de Acceso:  usuario1 ||Pr0mT3L19 
+16:05:16  USER           LOGIN                                             Datos:  usuario1 || Pr0mT3L19 
+16:05:16  USER           LOGIN                                             Error en datos de Acceso:  usuario1 || Pr0mT3L19 
+16:05:59  USER           LOGIN                                             Datos:  usuario1 ||Pr0mT3L19
+16:05:59  USER           LOGIN                                             Error en datos de Acceso:  usuario1 ||Pr0mT3L19
+16:06:36  USER           LOGIN                                             Datos:  usuario1 ||Pr0mT3L19
+16:06:36  USER           LOGIN                                             Error en datos de Acceso:  usuario1 ||Pr0mT3L19

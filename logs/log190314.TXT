@@ -1,0 +1,8 @@
+12:01:07  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+12:01:07  USER           LOGIN                                             Error en datos de Acceso: colaborador1||Pr0mT3LC01
+12:01:15  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+12:01:15  USER           LOGIN                                             Error en datos de Acceso: colaborador1||Pr0mT3LC01
+12:01:32  USER           LOGIN                                             Datos: colaborador1||promtel
+12:01:32  USER           LOGIN                                             Error en datos de Acceso: colaborador1||promtel
+12:01:33  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+12:01:33  USER           LOGIN                                             Error en datos de Acceso: colaborador1||Pr0mT3LC01

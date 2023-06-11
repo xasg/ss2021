@@ -1,0 +1,10 @@
+15:07:19  USER           LOGIN                                             Datos: correo@promtel.com||sysadminpromtel
+15:07:19  USER           LOGIN                                             Error en datos de Acceso: correo@promtel.com||sysadminpromtel
+15:07:36  USER           LOGIN                                             Datos: correo@promtel.com||Ws.119.AdQe
+15:07:36  USER           LOGIN                                             Error en datos de Acceso: correo@promtel.com||Ws.119.AdQe
+15:07:53  USER           LOGIN                                             Datos: observador@promtel.com||Pr0mT3L19
+15:07:53  USER           LOGIN                                             Error en datos de Acceso: observador@promtel.com||Pr0mT3L19
+15:12:13  USER           LOGIN                                             Datos: correo@promtel.com||Ws.119.AdQe
+15:12:13  USER           LOGIN                                             Error en datos de Acceso: correo@promtel.com||Ws.119.AdQe
+15:12:31  USER           LOGIN                                             Datos: observador@promtel.com||observador1
+15:12:31  USER           LOGIN                                             Error en datos de Acceso: observador@promtel.com||observador1

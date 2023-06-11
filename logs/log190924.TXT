@@ -1,0 +1,4 @@
+15:24:17  USER           LOGIN                                             Datos: promtel2017||Acc3$017
+15:24:17  USER           LOGIN                                             Datos: promtel2017||contratos.php
+15:29:19  USER           LOGIN                                             Datos: promtel2018||Pr0mT3L18
+15:29:19  USER           LOGIN                                             Datos: promtel2018||2018.php

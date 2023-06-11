@@ -1,0 +1,205 @@
+23:12:32  USERDEVELOPER  INIT                                              Subir archivos
+23:12:32  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:12:32  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para1_focon_03_requisicion
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para2_suficiencia_presupuestal
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para3_autorizacion_plurinominal
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para4_dictamen_de_excepcion_a_licitacion
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para5_anexo_tecnico
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para6_focon_02_existencias_bienes
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_1
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_2
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_3
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_1
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_2
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_3
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para9_cumplimiento_a_fuentes_de_investigacion
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para10_evaluacion_tecnica
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para11_evaluacion_economica
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para12_rfc
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para13_acta_constitutiva
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para14_poder_notarial
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para15_identificacion_rep_legal
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para16_comprobante_domicilio
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para17_estado_de_cuenta_bancario
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para18_pedido
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para19_clc
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información para20_factura
+23:12:32  USERDEVELOPER  LOG                                               No se cargo información paraentregable
+23:13:33  USERDEVELOPER  INIT                                              Subir archivos
+23:13:33  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:13:33  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para1_focon_03_requisicion
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para2_suficiencia_presupuestal
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para3_autorizacion_plurinominal
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para4_dictamen_de_excepcion_a_licitacion
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para5_anexo_tecnico
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para6_focon_02_existencias_bienes
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_1
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_2
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_3
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_1
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_2
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_3
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para9_cumplimiento_a_fuentes_de_investigacion
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para10_evaluacion_tecnica
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para11_evaluacion_economica
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para12_rfc
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para13_acta_constitutiva
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para14_poder_notarial
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para15_identificacion_rep_legal
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para16_comprobante_domicilio
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para17_estado_de_cuenta_bancario
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para18_pedido
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para19_clc
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información para20_factura
+23:13:33  USERDEVELOPER  LOG                                               No se cargo información paraentregable
+23:14:47  USERDEVELOPER  INIT                                              Subir archivos
+23:14:47  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:14:47  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:14:47  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 1_focon_03_requisicion...
+23:14:47  USERDEVELOPER  UPDATE FILE                                       docs/PROM-00001-2017/20150820_064751.jpg
+23:14:47  USERDEVELOPER  UPDATE FILE                                       Error, el archivo ya existe y se elimina previamente para subir la actualizacióndocs/PROM-00001-2017/20150820_064751.jpg
+
+23:14:47  USERDEVELOPER  UPDATE FILE                                       El archivo 20150820_064751.jpg se ha almacenado en forma exitosa.
+23:14:47  USERDEVELOPER  QUERY                                             Update OK.
+23:15:05  USERDEVELOPER  INIT                                              Subir archivos
+23:15:05  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:15:05  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:15:25  USERDEVELOPER  INIT                                              Subir archivos
+23:15:25  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:15:25  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:15:25  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 1_focon_03_requisicion...
+23:15:25  USERDEVELOPER  UPDATE FILE                                       docs/PROM-00001-2017/2018061109_50_14Administrador_Simbolodelsistema.png
+23:15:25  USERDEVELOPER  UPDATE FILE                                       El archivo 2018061109_50_14Administrador_Simbolodelsistema.png se ha almacenado en forma exitosa.
+23:15:25  USERDEVELOPER  QUERY                                             Update OK.
+23:15:45  USERDEVELOPER  INIT                                              Subir archivos
+23:15:45  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:15:45  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:18:33  USERDEVELOPER  INIT                                              Subir archivos
+23:18:33  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:18:33  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:19:15  USERDEVELOPER  INIT                                              Subir archivos
+23:19:15  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:19:15  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:19:15  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 1_focon_03_requisicion...
+23:19:15  USERDEVELOPER  UPDATE FILE                                       adrian.jpg
+23:19:15  USERDEVELOPER  UPDATE PATH                                       docs/PROM-00001-2017/adrian.jpg
+23:19:15  USERDEVELOPER  UPDATE FILE                                       El archivo adrian.jpg se ha almacenado en forma exitosa.
+23:19:15  USERDEVELOPER  QUERY                                             Update OK.
+23:20:56  USERDEVELOPER  INIT                                              Subir archivos
+23:20:56  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:20:56  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para1_focon_03_requisicion2
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para2_suficiencia_presupuestal4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para3_autorizacion_plurinominal4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para4_dictamen_de_excepcion_a_licitacion4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para5_anexo_tecnico4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para6_focon_02_existencias_bienes4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_14
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_24
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para7_focon_04_solicitud_de_cotizacion_34
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_14
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_24
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para8_cotizacion_34
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para9_cumplimiento_a_fuentes_de_investigacion4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para10_evaluacion_tecnica4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para11_evaluacion_economica4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para12_rfc4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para13_acta_constitutiva4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para14_poder_notarial4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para15_identificacion_rep_legal4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para16_comprobante_domicilio4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para17_estado_de_cuenta_bancario4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para18_pedido4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para19_clc4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información para20_factura4
+23:20:56  USERDEVELOPER  LOG                                               No se cargo información paraentregable4
+23:22:45  USERDEVELOPER  INIT                                              Subir archivos
+23:22:45  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:22:45  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:22:45  USERDEVELOPER  LOG                                               1_focon_03_requisicionError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+23:22:45  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+23:22:45  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+23:22:45  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+23:22:45  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+23:22:45  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+23:22:45  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               18_pedidoError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               19_clcError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+23:22:45  USERDEVELOPER  LOG                                               entregableError==>[4]
+23:23:20  USERDEVELOPER  INIT                                              Subir archivos
+23:23:20  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:23:20  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:23:20  USERDEVELOPER  LOG                                               1_focon_03_requisicionError==>[2]
+23:23:20  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+23:23:20  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+23:23:20  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+23:23:20  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+23:23:20  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+23:23:20  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+23:23:20  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               18_pedidoError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               19_clcError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+23:23:20  USERDEVELOPER  LOG                                               entregableError==>[4]
+23:23:30  USERDEVELOPER  INIT                                              Subir archivos
+23:23:30  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDOPROM-00001-2017
+23:23:30  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: docs/PROM-00001-2017/
+23:23:30  USERDEVELOPER  UPLOAD FILE                                       Subiendo archivo: 1_focon_03_requisicion...
+23:23:30  USERDEVELOPER  UPDATE FILE                                       20151115_171318.jpg
+23:23:30  USERDEVELOPER  UPDATE PATH                                       docs/PROM-00001-2017/20151115_171318.jpg
+23:23:30  USERDEVELOPER  UPDATE FILE                                       El archivo 20151115_171318.jpg se ha almacenado en forma exitosa.
+23:23:30  USERDEVELOPER  QUERY                                             Update OK.
+23:23:30  USERDEVELOPER  LOG                                               2_suficiencia_presupuestalError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               3_autorizacion_plurinominalError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               4_dictamen_de_excepcion_a_licitacionError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               5_anexo_tecnicoError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               6_focon_02_existencias_bienesError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_1Error==>[4]
+23:23:30  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_2Error==>[4]
+23:23:30  USERDEVELOPER  LOG                                               7_focon_04_solicitud_de_cotizacion_3Error==>[4]
+23:23:30  USERDEVELOPER  LOG                                               8_cotizacion_1Error==>[4]
+23:23:30  USERDEVELOPER  LOG                                               8_cotizacion_2Error==>[4]
+23:23:30  USERDEVELOPER  LOG                                               8_cotizacion_3Error==>[4]
+23:23:30  USERDEVELOPER  LOG                                               9_cumplimiento_a_fuentes_de_investigacionError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               10_evaluacion_tecnicaError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               11_evaluacion_economicaError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               12_rfcError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               13_acta_constitutivaError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               14_poder_notarialError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               15_identificacion_rep_legalError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               16_comprobante_domicilioError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               17_estado_de_cuenta_bancarioError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               18_pedidoError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               19_clcError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               20_facturaError==>[4]
+23:23:30  USERDEVELOPER  LOG                                               entregableError==>[4]

@@ -1,0 +1,2 @@
+12:34:07  USER           LOGIN                                             Datos: ||
+12:34:07  USER           LOGIN                                             Datos: colaborador1||art42.php

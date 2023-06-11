@@ -1,0 +1,59 @@
+22:33:02  USERDEVELOPER  INIT                                              Subir archivos
+22:33:02  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDO
+22:33:02  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: 
+22:33:02  USERDEVELOPER  QUERY                                             Update OK.
+22:33:49  USERDEVELOPER  INIT                                              Subir archivos
+22:33:49  USERDEVELOPER  INIT VAR NOMBRE                                   NUMERO DE PEDIDO
+22:33:49  USERDEVELOPER  INIT VAR DIR_DOCS                                 DIRECTORIO: 
+22:33:49  USERDEVELOPER  QUERY                                             Update OK.
+22:38:02  USERDEVELOPER  INIT                                              Update pedido
+22:38:02  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.333::jikhhkjhkjh::kjhjkhjkhkjhjhkjhinf_objeto>>
+22:38:02  USERDEVELOPER  QUERY                                             Update OK.
+22:38:42  USERDEVELOPER  INIT                                              Update pedido
+22:38:42  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.333::jikhhkjhkjh::kjhjkhjkhkjhjhkjhinf_objeto>>
+22:38:42  USERDEVELOPER  QUERY                                             Update OK.
+22:39:37  USERDEVELOPER  INIT                                              Update pedido
+22:39:37  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:39:37  USERDEVELOPER  QUERY                                             Update OK.
+22:40:27  USERDEVELOPER  INIT                                              Update pedido
+22:40:27  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:40:27  USERDEVELOPER  QUERY                                             Update OK.
+22:40:56  USERDEVELOPER  INIT                                              Update pedido
+22:40:56  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:40:56  USERDEVELOPER  QUERY                                             Update OK.
+22:40:58  USERDEVELOPER  INIT                                              Update pedido
+22:40:58  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:40:59  USERDEVELOPER  QUERY                                             Update OK.
+22:41:00  USERDEVELOPER  INIT                                              Update pedido
+22:41:00  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:00  USERDEVELOPER  QUERY                                             Update OK.
+22:41:14  USERDEVELOPER  INIT                                              Update pedido
+22:41:14  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:14  USERDEVELOPER  QUERY                                             Update OK.
+22:41:15  USERDEVELOPER  INIT                                              Update pedido
+22:41:15  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:15  USERDEVELOPER  QUERY                                             Update OK.
+22:41:18  USERDEVELOPER  INIT                                              Update pedido
+22:41:18  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:18  USERDEVELOPER  QUERY                                             Update OK.
+22:41:19  USERDEVELOPER  INIT                                              Update pedido
+22:41:19  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:19  USERDEVELOPER  QUERY                                             Update OK.
+22:41:21  USERDEVELOPER  INIT                                              Update pedido
+22:41:21  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:21  USERDEVELOPER  QUERY                                             Update OK.
+22:41:22  USERDEVELOPER  INIT                                              Update pedido
+22:41:22  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:22  USERDEVELOPER  QUERY                                             Update OK.
+22:41:39  USERDEVELOPER  INIT                                              Update pedido
+22:41:39  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:39  USERDEVELOPER  QUERY                                             Update OK.
+22:41:56  USERDEVELOPER  INIT                                              Update pedido
+22:41:56  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:56  USERDEVELOPER  QUERY                                             Update OK.
+22:41:58  USERDEVELOPER  INIT                                              Update pedido
+22:41:58  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:41:58  USERDEVELOPER  QUERY                                             Update OK.
+22:42:01  USERDEVELOPER  INIT                                              Update pedido
+22:42:01  USERDEVELOPER  INIT VARS                                         NUMERO DE PEDIDO <<1::PROM-00001::2.22::4454fcerercercer::crecrecrcecrec>>
+22:42:01  USERDEVELOPER  QUERY                                             Update OK.

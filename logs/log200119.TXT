@@ -1,0 +1,4 @@
+17:38:52  USER           LOGIN                                             Datos: colaborador1||Pr0mT3LC01
+17:38:52  USER           LOGIN                                             Error en datos de Acceso: colaborador1||Pr0mT3LC01
+17:38:56  USER           LOGIN                                             Datos: usuario1||Pr0mT3L19
+17:38:56  USER           LOGIN                                             Datos: usuario1||2018.php

@@ -1,0 +1,2 @@
+13:48:52  USER           LOGIN                                             Datos: observador1||Pr0mT3L19
+13:48:52  USER           LOGIN                                             Datos: observador1||o42.php

@@ -1,0 +1,2 @@
+15:42:19  USER           LOGIN                                             Datos: usuario1||Pr0mT3L19
+15:42:20  USER           LOGIN                                             Datos: usuario1||2018.php

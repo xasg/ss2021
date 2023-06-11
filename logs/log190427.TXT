@@ -1,0 +1,4 @@
+19:53:41  USER           LOGIN                                             Datos:  usuario1     || Pr0mT3L19 
+19:53:41  USER           LOGIN                                             Error en datos de Acceso:  usuario1     || Pr0mT3L19 
+19:54:28  USER           LOGIN                                             Datos: usuario1   ||Pr0mT3L19
+19:54:28  USER           LOGIN                                             Datos: usuario1   ||o42.php
