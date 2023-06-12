@@ -11,7 +11,21 @@ if(!isset($_SESSION['tp_usr'])){
 include('databases_utilities.php');
 mysqli_set_charset( $mysqli, 'utf8');
 // Check connection
+// Verificar si la variable 'year' está presente en $_GET
+$year=2021;
+$tp='ad';
+if (!isset($_GET['year'])) {
+    $_GET['year'] = 2021; // Asignar un valor predeterminado o dejar en blanco
+}else{
+    $year=$_GET['year'];
+}
 
+// Verificar si la variable 'tp' está presente en $_GET
+if (!isset($_GET['tp'])) {
+    $_GET['tp'] = "ad"; // Asignar un valor predeterminado o dejar en blanco
+}else{
+    $tp=$_GET['tp'];
+}
 ?>
 <!doctype html>
 <html lang="es">
@@ -61,7 +75,8 @@ mysqli_set_charset( $mysqli, 'utf8');
                             </div>
                             <?php
                                 /**Query a base de datos**/
-                                $query="SELECT * FROM matriz_control ORDER BY contrato ASC";
+                                $query="SELECT * FROM matriz_control WHERE year=$year AND tp_contrato='$tp' ORDER BY contrato ASC";
+                                print($query);
                                 if( $resultado = mysqli_query($mysqli, $query) or die()){         
                                     
                                     $totalRows_reporte = mysqli_num_rows($resultado);
