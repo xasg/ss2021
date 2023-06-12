@@ -159,7 +159,7 @@ mysqli_set_charset( $mysqli, 'utf8');
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        © 2020 - 2021 Dirección de Recursos Materiales, Abastecimientos y Servicios <span class="d-none d-md-inline-block"> </span>
+                        © 2019 - 2023 Dirección de Recursos Materiales, Abastecimientos y Servicios <span class="d-none d-md-inline-block"> </span>
                     </div>
                 </div>
             </div>

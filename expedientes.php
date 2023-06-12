@@ -53,7 +53,7 @@ mysqli_set_charset( $mysqli, 'utf8');
                                     <div class="page-title-box">
                                         <div class="row align-items-center">
                                             <div class="col-md-8">
-                                                <h4 class="page-title m-0">Expedientes</h4>
+                                                <h4 class="page-title m-0">Contratos</h4>
                                             </div>
                                         </div>
                                     </div>

@@ -76,25 +76,18 @@
                             <li class="has-submenu">
                                 <a href="inicio.php"><i class="ti-home"></i> Inicio</a>
                             </li>
-
-                            <li class="has-submenu">
-                                <a href="#"><i class="ti-harddrives"></i> Expedientes <i class="mdi mdi-chevron-down mdi-drop"></i></a>
-                                <ul class="submenu">
-                                    <li >
-                                        <a href="expedientes.php">Todos</a>
-                                    </li>
-                                    <li >
-                                        <a href="expedientes_p1.php">Periodo I</a>
-                                    </li>
-                                    <li>
-                                        <a href="expedientes_p2.php">Periodo II </a>
-                                    </li>
-                                    <li >
-                                        <a href="expedientes_cancelado.php">Cancelados</a>
-                                    </li>
-                                </ul>
+                            <li >
+                                <a href="expedientes.php?year=2021&tp=ad">AD 2021</a>
                             </li>
-
+                            <li >
+                                <a href="expedientes.php?year=2021&tp=lp">LP 2021</a>
+                            </li>
+                            <li >
+                                <a href="expedientes.php?year=2022&tp=ad">AD 2022</a>
+                            </li>
+                            <li >
+                                <a href="expedientes.php?year=2021&tp=lp">LP 2022</a>
+                            </li>
                             <li >
                                 <a href="proveedores.php">Proveedores </a>
                             </li>
