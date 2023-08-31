@@ -73,7 +73,7 @@
                         <!-- Navigation Menu-->
                         <ul class="navigation-menu">
 
-                            <li class="has-submenu">
+                            <!-- <li class="has-submenu">
                                 <a href="inicio.php"><i class="ti-home"></i> Inicio</a>
                             </li>
                             <li >
@@ -81,16 +81,16 @@
                             </li>
                             <li >
                                 <a href="expedientes.php?year=2021&tp=lp">LP 2021</a>
-                            </li>
+                            </li> -->
                             <li >
                                 <a href="expedientes.php?year=2022&tp=ad">AD 2022</a>
                             </li>
                             <li >
-                                <a href="expedientes.php?year=2021&tp=lp">LP 2022</a>
+                                <a href="expedientes.php?year=2022&tp=lp">LP 2022</a>
                             </li>
-                            <li >
+                            <!-- <li >
                                 <a href="proveedores.php">Proveedores </a>
-                            </li>
+                            </li> -->
 
                         </ul>
                         <!-- End navigation menu -->

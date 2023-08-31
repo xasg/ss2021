@@ -61,17 +61,17 @@ mysqli_set_charset( $mysqli, 'utf8');
                                 $escaneos = null;
                                 $egresos = null;
 
-                                $query="SELECT COUNT(DISTINCT(contrato)) as contratos FROM matriz_control";
+                                $query="SELECT COUNT(DISTINCT(contrato)) as contratos FROM adirecta";
                                 if( $resultado = mysqli_query($mysqli, $query) or die()){         
                                     $expedientes = mysqli_fetch_assoc($resultado);
                                 } 
 
-                                $query="SELECT COUNT(DISTINCT(proveedor)) as proveedores FROM matriz_control";
+                                $query="SELECT COUNT(DISTINCT(contrato)) as contratolp FROM lpublica";
                                 if( $resultado = mysqli_query($mysqli, $query) or die()){         
                                     $proveedores = mysqli_fetch_assoc($resultado);
                                 } 
 
-                                $query="SELECT SUM(documentos) as escaneos FROM matriz_control";
+                                $query="SELECT SUM(documentos) as escaneos FROM adirecta";
                                 if( $resultado = mysqli_query($mysqli, $query) or die()){         
                                     $escaneos = mysqli_fetch_assoc($resultado);
                                 } 
@@ -104,8 +104,8 @@ mysqli_set_charset( $mysqli, 'utf8');
                             <div>
                                 <h2 class="float-left text-danger"><i class="fas fa-id-card fa-lg"></i></h2>
                                 <div class="float-right">
-                                    <h2 class="text-danger mb-0"> <?= number_format($proveedores['proveedores'], 0, '.', ','); ?></h2>
-                                    <p class="text-muted mb-0 mt-2">Proveedores</p>
+                                    <h2 class="text-danger mb-0"> <?= number_format($proveedores['contratolp'], 0, '.', ','); ?></h2>
+                                    <p class="text-muted mb-0 mt-2">Licitaciones</p>
                                 </div>
                             </div>
                         </div>

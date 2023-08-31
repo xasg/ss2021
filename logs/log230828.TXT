@@ -1,0 +1,1 @@
+03:17:56  USER           LOGIN                                             Datos: admin||Fs666AdQe

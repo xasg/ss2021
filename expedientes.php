@@ -1,13 +1,13 @@
 <?php
 session_start(); 
-$_SESSION['locale']  = "matrizss.php";
-if(!isset($_SESSION['tp_usr'])){
-  echo '
-  <script>
-      window.location="index.php"
-  </script>
-  ';
-}
+$_SESSION['locale']  = "expedientes.php";
+// if(!isset($_SESSION['tp_usr'])){
+//   echo '
+//   <script>
+//       window.location="expedientes.php"
+//   </script>
+//   ';
+// }
 include('databases_utilities.php');
 mysqli_set_charset( $mysqli, 'utf8');
 // Check connection
@@ -15,7 +15,7 @@ mysqli_set_charset( $mysqli, 'utf8');
 $year=2021;
 $tp='ad';
 if (!isset($_GET['year'])) {
-    $_GET['year'] = 2021; // Asignar un valor predeterminado o dejar en blanco
+    $_GET['year'] = 2022; // Asignar un valor predeterminado o dejar en blanco
 }else{
     $year=$_GET['year'];
 }
@@ -26,12 +26,21 @@ if (!isset($_GET['tp'])) {
 }else{
     $tp=$_GET['tp'];
 }
+//Validamos el tipo de elemento abuscar
+$table = "";
+if($_GET['tp']=="ad"){
+    $table = "adirecta";
+}elseif($_GET['tp']=="lp"){
+    $table = "lpublica";
+}
+
+
 ?>
 <!doctype html>
 <html lang="es">
     <head>
         <meta charset="utf-8" />
-        <title>Hexzy - Responsive Admin Dashboard Template</title>
+        <title>Control de Contratos SS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta content="Admin Dashboard" name="description" />
         <meta content="ThemeDesign" name="author" />
@@ -66,7 +75,7 @@ if (!isset($_GET['tp'])) {
                                 <div class="col-sm-12">
                                     <div class="page-title-box">
                                         <div class="row align-items-center">
-                                            <div class="col-md-8">
+                                            <div class="col-md-12">
                                                 <h4 class="page-title m-0">Contratos</h4>
                                             </div>
                                         </div>
@@ -75,8 +84,8 @@ if (!isset($_GET['tp'])) {
                             </div>
                             <?php
                                 /**Query a base de datos**/
-                                $query="SELECT * FROM matriz_control WHERE year=$year AND tp_contrato='$tp' ORDER BY contrato ASC";
-                                print($query);
+                                $query="SELECT * FROM $table WHERE year=$year AND tp_contrato='$tp' ORDER BY contrato ASC";
+                                //print($query);
                                 if( $resultado = mysqli_query($mysqli, $query) or die()){         
                                     
                                     $totalRows_reporte = mysqli_num_rows($resultado);
@@ -98,8 +107,9 @@ if (!isset($_GET['tp'])) {
                                                             <th>Documentos</th>
                                                             <th>Monto</th>
                                                             <th>Requisición</th>
-                                                            <th>Estatus</th>
+                                                            <th>Cédula</th>
                                                             <th>Detalle</th>
+                                                            <th class="col-lg-2 col-sm-2 col-2">Servicio</th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
@@ -112,8 +122,10 @@ if (!isset($_GET['tp'])) {
                                                             <td class="text-center"><?php echo $row_reporte['documentos']; ?></td>
                                                             <td class="text-right">$<?php echo number_format($row_reporte['val_monto'], 2, '.', ','); ?></td>
                                                             <td class="requi"><?php echo $row_reporte['requisicion']; ?></td>
-                                                            <td class="text-center"><?php echo $row_reporte['estatus']; ?></td>
+                                                            <td class="text-center"><a href="<?=$row_reporte['cedula']?>" target="_blank">Ver</a></td>
                                                             <td class="text-right"><a href="detalle.php?id_exp=<?=$row_reporte['id_expediente']?>" target="_blank">Ver</a></td>
+                                                            <td class="text-left col-lg-2 col-sm-2 col-2"><?php echo $row_reporte['tp_servicio']; ?></td>
+
                                                         </tr>
                                                         
                                                         <?php 

@@ -1,4 +1,5 @@
 <?php
+printf("Iniciando");
 $message="";
 session_start(); 
 $_SESSION['locale'] ="index.php";
@@ -19,7 +20,7 @@ mysqli_set_charset( $mysqli, 'utf8');
 		    $totalRows_reporte = mysqli_num_rows($resultado);
 		  }
 		  if ($totalRows_reporte=="1") {
-		  	$target="#";
+		  	$target="expedientes.php";
 		  	if($row_reporte['tp_usr']=="Observador"){
 		  		$target="inicio.php";
 		  		$_SESSION['tp_usr'] = "Observador";
@@ -29,7 +30,7 @@ mysqli_set_charset( $mysqli, 'utf8');
 		  		$_SESSION['tp_usr'] = "Colaborador";
 		  	}
 		  	if($row_reporte['tp_usr']=="Admin"){
-		  		$target="inicio.php";
+		  		$target="expedientes.php?year=2022&tp=ad";
 		  		$_SESSION['tp_usr'] = "Admin";
 		  	}
 
