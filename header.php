@@ -75,22 +75,30 @@
 
                             <!-- <li class="has-submenu">
                                 <a href="inicio.php"><i class="ti-home"></i> Inicio</a>
+                            </li>-->
+
+                            <li >
+                                <a href="expedientes.php?year=2019&tp=ad">AD 2019</a>
                             </li>
+                            <li >
+                                <a href="expedientes.php?year=2020&tp=ad">AD 2020</a>
+                            </li>
+                            
+                            <li >
+                                <a href="expedientes.php?year=2021&tp=lp">LP 2021</a>
+                            </li> 
                             <li >
                                 <a href="expedientes.php?year=2021&tp=ad">AD 2021</a>
                             </li>
-                            <li >
-                                <a href="expedientes.php?year=2021&tp=lp">LP 2021</a>
-                            </li> -->
                             <li >
                                 <a href="expedientes.php?year=2022&tp=ad">AD 2022</a>
                             </li>
                             <li >
                                 <a href="expedientes.php?year=2022&tp=lp">LP 2022</a>
                             </li>
-                            <!-- <li >
+                            
                                 <a href="proveedores.php">Proveedores </a>
-                            </li> -->
+                            </li> 
 
                         </ul>
                         <!-- End navigation menu -->

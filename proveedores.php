@@ -1,13 +1,13 @@
 <?php
 session_start(); 
-$_SESSION['locale']  = "matrizss.php";
-if(!isset($_SESSION['tp_usr'])){
+$_SESSION['locale']  = "expedientes.php";
+/* if(!isset($_SESSION['tp_usr'])){
   echo '
   <script>
       window.location="index.php"
   </script>
   ';
-}
+} */
 include('databases_utilities.php');
 mysqli_set_charset( $mysqli, 'utf8');
 // Check connection
@@ -60,7 +60,7 @@ mysqli_set_charset( $mysqli, 'utf8');
                             </div>
                             <?php
                                 /**Query a base de datos**/
-                                $query="SELECT DISTINCT(`proveedor`), COUNT(*) as 'contratos', SUM(`val_monto`) as 'monto' FROM `matriz_control` GROUP BY `proveedor`";
+                                $query="SELECT DISTINCT(`proveedor`), COUNT(*) as 'contratos', SUM(`val_monto`) as 'monto' FROM `adirecta` GROUP BY `proveedor`";
                                 if( $resultado = mysqli_query($mysqli, $query) or die()){         
                                     
                                     $totalRows_reporte = mysqli_num_rows($resultado);
