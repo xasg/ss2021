@@ -1,6 +1,8 @@
 <?php
 ###session_start(); 
 session_start(); 
+ 
+
 // $_SESSION['locale']  = "expedientes.php";
 // if(!isset($_SESSION['tp_usr'])){
 //   echo '
@@ -463,6 +465,9 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                                    
                                 </div>
                             </div> <!-- end row -->
+                            <?php
+                            if($_SESSION['tp_usr']=="Admin"){
+                                ?>
                             <div class="row">
                                 <div class="col-12">
                                     <div class="invoice-title">
@@ -476,6 +481,7 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                                                       <div>
                                                      <?php
                                                         
+                                                         
                                                         $ruta= $directorio_a_comprimir;
                                                         error_reporting(0); 
                                                         $directorio = opendir($ruta); //ruta actual
@@ -496,6 +502,12 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                                     </div>
                                 </div>
                             </div>
+                            <?php 
+                            echo    $_SESSION['tp_usr'];
+                              }else{
+                                 echo ".";
+                              }
+                              ?>
                         </div> <!-- panel body -->
                     </div> <!-- end panel -->
 

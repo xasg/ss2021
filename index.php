@@ -79,14 +79,14 @@ mysqli_set_charset( $mysqli, 'utf8');
 						<input type="submit" value="Ingresar" name="boton" />
 					</form>
 					<?php echo "$message";?><br>
-					<img src="logo_sedesa2.png" alt="..." class="img" width="100%" style="margin: 0px auto;";> 
+					<img src="imagen.jpeg" alt="..." class="img" width="100%" style="margin: 0px auto;";> 
 					<!--<img src="images/fulls/login.gif" alt="..." class="img" width=100%" style="margin: 0px auto;";> -->
 					</header>
 
 				<!-- Thumbnail -->
 					<section id="thumbnails">
 						<article>
-							<a class="thumbnail" href="images/fulls/torre.jpg" data-position="left center"></a>
+							<a class="thumbnail" href="imagen.jpeg" data-position="left center"></a>
 						
 						</article>
 						
