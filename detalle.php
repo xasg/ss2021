@@ -25,6 +25,8 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
     $row_reporte = mysqli_fetch_assoc($resultado);
     $totalRows_reporte = mysqli_num_rows($resultado);
   } 
+
+  $directorio_a_comprimir = "docs/".$row_reporte['year']."/".$row_reporte['contrato']
 ?>
 <!doctype html>
 <html lang="es">
@@ -63,7 +65,7 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                     </div>
                 </div>
             </div>
-
+            
             <div class="row">
                 <div class="col-lg-12">
                     <div class="card">
@@ -145,140 +147,140 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                                                         <?php 
                                                         if($row_reporte['1.1']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['1.1']!=0||!empty($row_reporte['1.1'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/1.1.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 1.1 REQUISICIÓN
+                                                        }elseif($row_reporte['1.1']!=0||!empty($row_reporte['1.1'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 1.1 REQUISICIÓN
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['1.2']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['1.2']!=0||!empty($row_reporte['1.2'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/1.2.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 1.2	ANEXO TÉCNICO
+                                                        }elseif($row_reporte['1.2']!=0||!empty($row_reporte['1.2'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 1.2	ANEXO TÉCNICO
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['2.1']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['2.1']!=0||!empty($row_reporte['2.1'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/2.1.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 2.1	OFICIOS DE INVITACIÓN
+                                                        }elseif($row_reporte['2.1']!=0||!empty($row_reporte['2.1'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 2.1	OFICIOS DE INVITACIÓN
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['2.2']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['2.2']!=0||!empty($row_reporte['2.2'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/2.2.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 2.2	COTIZACIONES
+                                                        }elseif($row_reporte['2.2']!=0||!empty($row_reporte['2.2'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 2.2	COTIZACIONES
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['2.3']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['2.3']!=0||!empty($row_reporte['2.3'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/2.3.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 2.3	SONDEO DE  MERCADO
+                                                        }elseif($row_reporte['2.3']!=0||!empty($row_reporte['2.3'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 2.3	SONDEO DE  MERCADO
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['3.1']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['3.1']!=0||!empty($row_reporte['3.1'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/3.1.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 3.1	OFICIO DE SOLICITUD DE SUFICIENCIA PRESUPUESTAL
+                                                        }elseif($row_reporte['3.1']!=0||!empty($row_reporte['3.1'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 3.1	OFICIO DE SOLICITUD DE SUFICIENCIA PRESUPUESTAL
 
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['3.2']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['3.2']!=0||!empty($row_reporte['3.2'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/3.2.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 3.2	SUFICIENCIA PRESUPUESTAL
+                                                        }elseif($row_reporte['3.2']!=0||!empty($row_reporte['3.2'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 3.2	SUFICIENCIA PRESUPUESTAL
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['4']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['4']!=0||!empty($row_reporte['4'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/4.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 4 SUBCOMITÉ
+                                                        }elseif($row_reporte['4']!=0||!empty($row_reporte['4'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 4 SUBCOMITÉ
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['5.1']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['5.1']!=0||!empty($row_reporte['5.1'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/5.1.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 5.1	COMPROBACIÓN DE PROVEEDORES SANCIONADOS Y/O INHABILITACIÓN (LOCAL Y FEDERAL)
+                                                        }elseif($row_reporte['5.1']!=0||!empty($row_reporte['5.1'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 5.1	COMPROBACIÓN DE PROVEEDORES SANCIONADOS Y/O INHABILITACIÓN (LOCAL Y FEDERAL)
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['5.2']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['5.2']!=0||!empty($row_reporte['5.2'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/5.2.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 5.2	MANIFESTACIÓN DE NO CONFLICTO DE INTERESES
+                                                        }elseif($row_reporte['5.2']!=0||!empty($row_reporte['5.2'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 5.2	MANIFESTACIÓN DE NO CONFLICTO DE INTERESES
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['5.3']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['5.3']!=0||!empty($row_reporte['5.3'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/5.3.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 5.3	OFICIO DE ADJUDICACAIÓN
+                                                        }elseif($row_reporte['5.3']!=0||!empty($row_reporte['5.3'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 5.3	OFICIO DE ADJUDICACAIÓN
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.1']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.1']!=0||!empty($row_reporte['6.1'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.1.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 6.1	COPIA DEL ACTA CONSTITUTIVA DE LA EMPRESA PARTICIPANTE O ACTA DE NACIMIENTO PARA PERSONA FÍSICA 
+                                                        }elseif($row_reporte['6.1']!=0||!empty($row_reporte['6.1'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 6.1	COPIA DEL ACTA CONSTITUTIVA DE LA EMPRESA PARTICIPANTE O ACTA DE NACIMIENTO PARA PERSONA FÍSICA 
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.2']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.2']!=0||!empty($row_reporte['6.2'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.2.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 6.2	COPIA DEL PODER NOTARIAL PARA ACTOS DE ADMINISTRACIÓN O PODER ESPECIAL EN EL QUE SE INDIQUE EXPRESAMENTE QUE PUEDE FIRMAR CONTRATOS
+                                                        }elseif($row_reporte['6.2']!=0||!empty($row_reporte['6.2'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?> 6.2	COPIA DEL PODER NOTARIAL PARA ACTOS DE ADMINISTRACIÓN O PODER ESPECIAL EN EL QUE SE INDIQUE EXPRESAMENTE QUE PUEDE FIRMAR CONTRATOS
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.3']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.3']!=0||!empty($row_reporte['6.3'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.3.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.3	COPIA DE IDENTIFICACIÓN OFICIAL (DE LA PERSONA QUE FIRMA EL CONTRATO)
+                                                        }elseif($row_reporte['6.3']!=0||!empty($row_reporte['6.3'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.3	COPIA DE IDENTIFICACIÓN OFICIAL (DE LA PERSONA QUE FIRMA EL CONTRATO)
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.4']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.4']!=0||!empty($row_reporte['6.4'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.4.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.4	COPIA DE RFC Y/O CURP (AMBOS EN EL CASO DE PERSONAS FÍSICAS.) 
+                                                        }elseif($row_reporte['6.4']!=0||!empty($row_reporte['6.4'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.4	COPIA DE RFC Y/O CURP (AMBOS EN EL CASO DE PERSONAS FÍSICAS.) 
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.5']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.5']!=0||!empty($row_reporte['6.5'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.5.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.5	COPIA DE COMPROBANTE DE DOMICILIO FISCAL. 
+                                                        }elseif($row_reporte['6.5']!=0||!empty($row_reporte['6.5'])){ ?><a href=""><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.5	COPIA DE COMPROBANTE DE DOMICILIO FISCAL. 
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.6']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.6']!=0||!empty($row_reporte['6.6'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.6.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.6	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, EN EL QUE INDIQUE QUE LAS FACULTADES COMO APODERADO O REPRESENTANTE LEGAL NO HA SIDO MODIFICADO, LIMITADO O REVOCADO EL PODER NOTARIAL.
+                                                        }elseif($row_reporte['6.6']!=0||!empty($row_reporte['6.6'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.6	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, EN EL QUE INDIQUE QUE LAS FACULTADES COMO APODERADO O REPRESENTANTE LEGAL NO HA SIDO MODIFICADO, LIMITADO O REVOCADO EL PODER NOTARIAL.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.7']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.7']!=0||!empty($row_reporte['6.7'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.7.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.7	MANIFIESTO, BAJO PROTESTA DE DECIR VERDAD, QUE CUENTA CON LOS RECURSOS HUMANOS, TÉCNICOS, FINANCIEROS Y DEMÁS REQUISITOS QUE SE ESTABLECEN EN LA PRESENTE SOLICITUD DE COTIZACIÓN, ASÍ COMO LA CAPACIDAD DE RESPUESTA, PARA ATENDER LOS COMPROMISOS QUE SE DERIVEN DE DICHO OFICIO.
+                                                        }elseif($row_reporte['6.7']!=0||!empty($row_reporte['6.7'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.7	MANIFIESTO, BAJO PROTESTA DE DECIR VERDAD, QUE CUENTA CON LOS RECURSOS HUMANOS, TÉCNICOS, FINANCIEROS Y DEMÁS REQUISITOS QUE SE ESTABLECEN EN LA PRESENTE SOLICITUD DE COTIZACIÓN, ASÍ COMO LA CAPACIDAD DE RESPUESTA, PARA ATENDER LOS COMPROMISOS QUE SE DERIVEN DE DICHO OFICIO.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.8']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.8']!=0||!empty($row_reporte['6.8'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.8.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.8	MANIFIESTO, MEDIANTE LA CUAL SE RESPONSABILIZA DE LA CALIDAD DE LOS BIENES Y DE QUE CUMPLE TOTALMENTE CON LAS CARACTERÍSTICAS TÉCNICAS SOLICITADAS.
+                                                        }elseif($row_reporte['6.8']!=0||!empty($row_reporte['6.8'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.8	MANIFIESTO, MEDIANTE LA CUAL SE RESPONSABILIZA DE LA CALIDAD DE LOS BIENES Y DE QUE CUMPLE TOTALMENTE CON LAS CARACTERÍSTICAS TÉCNICAS SOLICITADAS.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.9']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.9']!=0||!empty($row_reporte['6.9'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.9.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.9	MANIFIESTO, BAJO PROTESTA DE DECIR VERDAD, QUE NO SE ENCUENTRA EN NINGUNO DE LOS SUPUESTOS DE IMPEDIMENTO QUE ESTABLECE EL ARTÍCULO 39 DE LA “LEY DE ADQUISICIONES PARA EL DISTRITO FEDERAL”, ASÍ COMO TAMPOCO EN LO CONTEMPLADO POR EL ARTÍCULO 67 DE LA “LEY DE RESPONSABILIDADES ADMINISTRATIVAS DE LA CIUDAD DE MÉXICO”. ASIMISMO, NO SE ENCUENTRA EN LOS SUPUESTOS DE IMPEDIMENTOS LEGALES, INHABILITADA O SANCIONADA POR LA CONTRALORÍA GENERAL DE LA CIUDAD DE MÉXICO, POR LA SECRETARÍA DE LA FUNCIÓN PÚBLICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL, NI POR LAS AUTORIDADES COMPETENTES DE LOS GOBIERNOS DE LAS ENTIDADES FEDERATIVAS O MUNICIPIOS.
+                                                        }elseif($row_reporte['6.9']!=0||!empty($row_reporte['6.9'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.9	MANIFIESTO, BAJO PROTESTA DE DECIR VERDAD, QUE NO SE ENCUENTRA EN NINGUNO DE LOS SUPUESTOS DE IMPEDIMENTO QUE ESTABLECE EL ARTÍCULO 39 DE LA “LEY DE ADQUISICIONES PARA EL DISTRITO FEDERAL”, ASÍ COMO TAMPOCO EN LO CONTEMPLADO POR EL ARTÍCULO 67 DE LA “LEY DE RESPONSABILIDADES ADMINISTRATIVAS DE LA CIUDAD DE MÉXICO”. ASIMISMO, NO SE ENCUENTRA EN LOS SUPUESTOS DE IMPEDIMENTOS LEGALES, INHABILITADA O SANCIONADA POR LA CONTRALORÍA GENERAL DE LA CIUDAD DE MÉXICO, POR LA SECRETARÍA DE LA FUNCIÓN PÚBLICA DE LA ADMINISTRACIÓN PÚBLICA FEDERAL, NI POR LAS AUTORIDADES COMPETENTES DE LOS GOBIERNOS DE LAS ENTIDADES FEDERATIVAS O MUNICIPIOS.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.10']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.10']!=0||!empty($row_reporte['6.10'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.10.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.10	MANIFIESTO, BAJO PROTESTA DE DECIR VERDAD, QUE LOS SOCIOS, DIRECTIVOS, ACCIONISTAS, ADMINISTRADORES, COMISARIOS Y DEMÁS PERSONAL DE LOS PROCESOS DE VENTAS, COMERCIALIZACIÓN, RELACIONES PÚBLICAS O SIMILARES, NO TIENEN, NO VAN A TENER EN EL SIGUIENTE AÑO O HAN TENIDO EN EL ÚLTIMO AÑO, RELACIÓN PERSONAL PROFESIONAL, LABORAL, FAMILIAR O DE NEGOCIOS CON LOS SERVIDORES SEÑALADOS EN LA PRESENTE SOLICITUD.
+                                                        }elseif($row_reporte['6.10']!=0||!empty($row_reporte['6.10'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.10	MANIFIESTO, BAJO PROTESTA DE DECIR VERDAD, QUE LOS SOCIOS, DIRECTIVOS, ACCIONISTAS, ADMINISTRADORES, COMISARIOS Y DEMÁS PERSONAL DE LOS PROCESOS DE VENTAS, COMERCIALIZACIÓN, RELACIONES PÚBLICAS O SIMILARES, NO TIENEN, NO VAN A TENER EN EL SIGUIENTE AÑO O HAN TENIDO EN EL ÚLTIMO AÑO, RELACIÓN PERSONAL PROFESIONAL, LABORAL, FAMILIAR O DE NEGOCIOS CON LOS SERVIDORES SEÑALADOS EN LA PRESENTE SOLICITUD.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.11']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.11']!=0||!empty($row_reporte['6.11'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.11.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.11	MANIFIESTO “BAJO PROTESTA DE DECIR VERDAD” DONDE INDIQUE EL GRADO DE INTEGRACIÓN NACIONAL DE LOS BIENES OBJETO DE LA PRESENTE ADQUISICIÓN.
+                                                        }elseif($row_reporte['6.11']!=0||!empty($row_reporte['6.11'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.11	MANIFIESTO “BAJO PROTESTA DE DECIR VERDAD” DONDE INDIQUE EL GRADO DE INTEGRACIÓN NACIONAL DE LOS BIENES OBJETO DE LA PRESENTE ADQUISICIÓN.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.12']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.12']!=0||!empty($row_reporte['6.12'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.12.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.12	"MANIFIESTO BAJO PROTESTA DE DECIR VERDAD DONDE INDIQUE QUE LA EMPRESA HA CUMPLIDO EN DEBIDA FORMA CON LAS OBLIGACIONES FISCALES SEÑALADAS POR EL CÓDIGO FISCAL DE LA CIUDAD DE MÉXICO, CORRESPONDIENTES  A LOS ÚLTIMOS CINCO EJERCICIOS FISCALES Y CONSTANCIA DE ADEUDOS, EXPEDIDA POR LA ADMINISTRACIÓN TRIBUTARIA QUE LE CORRESPONDA;  O EN SU CASO, POR EL SISTEMA DE AGUAS DE LA CIUDAD DE MÉXICO, DE LAS SIGUIENTES CONTRIBUCIONES:
+                                                        }elseif($row_reporte['6.12']!=0||!empty($row_reporte['6.12'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.12	"MANIFIESTO BAJO PROTESTA DE DECIR VERDAD DONDE INDIQUE QUE LA EMPRESA HA CUMPLIDO EN DEBIDA FORMA CON LAS OBLIGACIONES FISCALES SEÑALADAS POR EL CÓDIGO FISCAL DE LA CIUDAD DE MÉXICO, CORRESPONDIENTES  A LOS ÚLTIMOS CINCO EJERCICIOS FISCALES Y CONSTANCIA DE ADEUDOS, EXPEDIDA POR LA ADMINISTRACIÓN TRIBUTARIA QUE LE CORRESPONDA;  O EN SU CASO, POR EL SISTEMA DE AGUAS DE LA CIUDAD DE MÉXICO, DE LAS SIGUIENTES CONTRIBUCIONES:
                                                             A. IMPUESTO PREDIAL
                                                             B. IMPUESTO SOBRE ADQUISICIÓN DE INMUEBLES
                                                             C. IMPUESTO SOBRE NÓMINA
@@ -293,155 +295,155 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                                                         <?php 
                                                         if($row_reporte['6.13']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.13']!=0||!empty($row_reporte['6.13'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.13.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.13	PARCIALES DE I.S.R. E I.V.A. ÚLTIMOS CUATRO MESES. 
+                                                        }elseif($row_reporte['6.13']!=0||!empty($row_reporte['6.13'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.13	PARCIALES DE I.S.R. E I.V.A. ÚLTIMOS CUATRO MESES. 
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.14']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.14']!=0||!empty($row_reporte['6.14'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.14.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.14	RELACIÓN DE PERSONAL ASEGURADO EN EL I.M.S.S., CEDULA DE DETERMINACIÓN DE CUOTAS, NO MAYOR A UN MES DE ANTELACIÓN A LA FECHA DE LA CONTRATACIÓN Y COMPROBANTES DE PAGO DE LAS CUOTAS OBRERO PATRONALES DE LOS ÚLTIMOS DOS BIMESTRES. (EN EL CASO DE CONTRATACIÓN DE SERVICIOS)
+                                                        }elseif($row_reporte['6.14']!=0||!empty($row_reporte['6.14'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.14	RELACIÓN DE PERSONAL ASEGURADO EN EL I.M.S.S., CEDULA DE DETERMINACIÓN DE CUOTAS, NO MAYOR A UN MES DE ANTELACIÓN A LA FECHA DE LA CONTRATACIÓN Y COMPROBANTES DE PAGO DE LAS CUOTAS OBRERO PATRONALES DE LOS ÚLTIMOS DOS BIMESTRES. (EN EL CASO DE CONTRATACIÓN DE SERVICIOS)
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.15']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.15']!=0||!empty($row_reporte['6.15'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.15.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.15	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE TENDRÁ LA CALIDAD DE PATRÓN, RESPECTO DEL PERSONAL QUE UTILICE PARA LA ENTREGA DE LOS BIENES, OBJETO DE LA PRESENTE SOLICITUD DE COTIZACIÓN, POR LO QUE LA SECRETARIA DE SALUD DE LA CIUDAD DE MÉXICO NO PODRÁ CONSIDERARSE PATRÓN SOLIDARIO O SUSTITUTO DE CUALESQUIERA DE LAS OBLIGACIONES Y RESPONSABILIDADES QUE TENGA CON RESPECTO A SUS TRABAJADORES, EN CASO DE CONTROVERSIA LABORAL CON ALGUNO O VARIOS DE SUS TRABAJADORES, ASUMIRÁ TOTALMENTE LA RESPONSABILIDAD LABORAL Y ECONÓMICA CON RESPECTO A SU PERSONAL.
+                                                        }elseif($row_reporte['6.15']!=0||!empty($row_reporte['6.15'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.15	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE TENDRÁ LA CALIDAD DE PATRÓN, RESPECTO DEL PERSONAL QUE UTILICE PARA LA ENTREGA DE LOS BIENES, OBJETO DE LA PRESENTE SOLICITUD DE COTIZACIÓN, POR LO QUE LA SECRETARIA DE SALUD DE LA CIUDAD DE MÉXICO NO PODRÁ CONSIDERARSE PATRÓN SOLIDARIO O SUSTITUTO DE CUALESQUIERA DE LAS OBLIGACIONES Y RESPONSABILIDADES QUE TENGA CON RESPECTO A SUS TRABAJADORES, EN CASO DE CONTROVERSIA LABORAL CON ALGUNO O VARIOS DE SUS TRABAJADORES, ASUMIRÁ TOTALMENTE LA RESPONSABILIDAD LABORAL Y ECONÓMICA CON RESPECTO A SU PERSONAL.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.16']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.16']!=0||!empty($row_reporte['6.16'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.16.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.16	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE, CUENTA CON TODOS Y CADA UNO DE LOS PERMISOS, AUTORIZACIONES O AVISOS QUE EN SU CASO APLIQUEN ANTE LAS DIVERSAS AUTORIDADES PARA PROPORCIONAR LA ENTREGA DE LOS BIENES DE ESTA SOLICITUD DE COTIZACIÓN Y DE QUE  ASUMIRÁ LA RESPONSABILIDAD TOTAL EN CASO DE QUE INFRINJAN PATENTES, MARCAS, CERTIFICADOS DE INVENCIÓN O DERECHOS DE AUTOR DURANTE LA VIGENCIA DEL CONTRATO, SIN RESPONSABILIDAD PARA EL GOBIERNO DE LA CIUDAD DE MÉXICO.
+                                                        }elseif($row_reporte['6.16']!=0||!empty($row_reporte['6.16'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.16	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE, CUENTA CON TODOS Y CADA UNO DE LOS PERMISOS, AUTORIZACIONES O AVISOS QUE EN SU CASO APLIQUEN ANTE LAS DIVERSAS AUTORIDADES PARA PROPORCIONAR LA ENTREGA DE LOS BIENES DE ESTA SOLICITUD DE COTIZACIÓN Y DE QUE  ASUMIRÁ LA RESPONSABILIDAD TOTAL EN CASO DE QUE INFRINJAN PATENTES, MARCAS, CERTIFICADOS DE INVENCIÓN O DERECHOS DE AUTOR DURANTE LA VIGENCIA DEL CONTRATO, SIN RESPONSABILIDAD PARA EL GOBIERNO DE LA CIUDAD DE MÉXICO.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.17']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.17']!=0||!empty($row_reporte['6.17'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.17.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.17	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CONOCE Y ACEPTA EL CONTENIDO DE TODAS Y CADA UNA DE LAS HOJAS DE LA PRESENTE SOLICITUD DE COTIZACIÓN, INCLUYENDO SUS ANEXOS.
+                                                        }elseif($row_reporte['6.17']!=0||!empty($row_reporte['6.17'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.17	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CONOCE Y ACEPTA EL CONTENIDO DE TODAS Y CADA UNA DE LAS HOJAS DE LA PRESENTE SOLICITUD DE COTIZACIÓN, INCLUYENDO SUS ANEXOS.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.18']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.18']!=0||!empty($row_reporte['6.18'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.18.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.18	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE NO CEDERÁ NI SUBCONTRATARA NI TOTAL NI PARCIALMENTE, LOS DERECHOS Y OBLIGACIONES QUE SE DERIVEN DEL CONTRATO RESPECTIVO, DE CONFORMIDAD CON EL ARTICULO 61 PRIMER PÁRRAFO DE LA LEY DE ADQUISICIONES PARA EL DISTRITO FEDERAL.
+                                                        }elseif($row_reporte['6.18']!=0||!empty($row_reporte['6.18'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.18	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE NO CEDERÁ NI SUBCONTRATARA NI TOTAL NI PARCIALMENTE, LOS DERECHOS Y OBLIGACIONES QUE SE DERIVEN DEL CONTRATO RESPECTIVO, DE CONFORMIDAD CON EL ARTICULO 61 PRIMER PÁRRAFO DE LA LEY DE ADQUISICIONES PARA EL DISTRITO FEDERAL.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.19']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.19']!=0||!empty($row_reporte['6.19'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.19.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.19	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE ME COMPROMETO A NO INCURRIR EN PRACTICAS NO ÉTICAS O ILEGALES DURANTE LA PRESENTE SOLICITUD DE COTIZACIÓN, ASÍ COMO EN EL PROCESO DE FORMALIZACIÓN Y VIGENCIA DEL CONTRATO Y, EN SU CASO, LOS CONVENIOS QUE SE CELEBREN, INCLUYENDO LOS ACTOS QUE DE ESTOS DERIVEN.
+                                                        }elseif($row_reporte['6.19']!=0||!empty($row_reporte['6.19'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.19	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE ME COMPROMETO A NO INCURRIR EN PRACTICAS NO ÉTICAS O ILEGALES DURANTE LA PRESENTE SOLICITUD DE COTIZACIÓN, ASÍ COMO EN EL PROCESO DE FORMALIZACIÓN Y VIGENCIA DEL CONTRATO Y, EN SU CASO, LOS CONVENIOS QUE SE CELEBREN, INCLUYENDO LOS ACTOS QUE DE ESTOS DERIVEN.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.20']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.20']!=0||!empty($row_reporte['6.20'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.20.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.20	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE AUTORIZO A LA SECRETARIA DE SALUD DE LA CIUDAD DE MÉXICO A VERIFICAR ANTE LAS INSTANCIAS CORRESPONDIENTES, LA VERACIDAD DE LOS DOCUMENTOS PRESENTADOS COMO MOTIVO DE ESTA SOLICITUD DE COTIZACIÓN.
+                                                        }elseif($row_reporte['6.20']!=0||!empty($row_reporte['6.20'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.20	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD, QUE AUTORIZO A LA SECRETARIA DE SALUD DE LA CIUDAD DE MÉXICO A VERIFICAR ANTE LAS INSTANCIAS CORRESPONDIENTES, LA VERACIDAD DE LOS DOCUMENTOS PRESENTADOS COMO MOTIVO DE ESTA SOLICITUD DE COTIZACIÓN.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.21']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.21']!=0||!empty($row_reporte['6.21'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.21.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.21	MANIFESTACIÓN BAJO PROTESTA DE DECIR VERDAD, EN EL QUE PROPORCIONE UN DOMICILIO DENTRO DE LA CIUDAD DE MÉXICO PARA ESCUCHAR Y RECIBIR NOTIFICACIONES. EN EL CASO DE QUE SU DOMICILIO FISCAL SE ENCUTRA FUERA DE LA CIUDAD DE MÉXICO
+                                                        }elseif($row_reporte['6.21']!=0||!empty($row_reporte['6.21'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.21	MANIFESTACIÓN BAJO PROTESTA DE DECIR VERDAD, EN EL QUE PROPORCIONE UN DOMICILIO DENTRO DE LA CIUDAD DE MÉXICO PARA ESCUCHAR Y RECIBIR NOTIFICACIONES. EN EL CASO DE QUE SU DOMICILIO FISCAL SE ENCUTRA FUERA DE LA CIUDAD DE MÉXICO
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.22']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.22']!=0||!empty($row_reporte['6.22'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.22.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.22	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE EN CASO DE QUE CAMBIE DE DOMICILIO FISCAL, ESTO SERA NOTIFICADO A SECRETARIA DE SALUD DE LA CIUDAD DE MÉXICO DENTRO DE LOS 15 DÍAS POSTERIORES A DICHO CAMBIO, Y SEÑALARE OPORTUNAMENTE EL NUEVO DOMICILIO, ASÍ COMO EL NÚMERO(S) TELEFÓNICO(S) CORRESPONDIENTE(S).
+                                                        }elseif($row_reporte['6.22']!=0||!empty($row_reporte['6.22'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.22	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE EN CASO DE QUE CAMBIE DE DOMICILIO FISCAL, ESTO SERA NOTIFICADO A SECRETARIA DE SALUD DE LA CIUDAD DE MÉXICO DENTRO DE LOS 15 DÍAS POSTERIORES A DICHO CAMBIO, Y SEÑALARE OPORTUNAMENTE EL NUEVO DOMICILIO, ASÍ COMO EL NÚMERO(S) TELEFÓNICO(S) CORRESPONDIENTE(S).
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.23']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.23']!=0||!empty($row_reporte['6.23'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.23.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.23	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CONOZCO EL CONTENIDO DEL ARTICULO 77 DE LA LEY DE ADQUISICIONES PARA EL DISTRITO FEDERAL.
+                                                        }elseif($row_reporte['6.23']!=0||!empty($row_reporte['6.23'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.23	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CONOZCO EL CONTENIDO DEL ARTICULO 77 DE LA LEY DE ADQUISICIONES PARA EL DISTRITO FEDERAL.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.24']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.24']!=0||!empty($row_reporte['6.24'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.24.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.24	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE NO ME ENCUENTRO EN LOS SUPUESTOS DE IMPEDIMENTOS LEGALES CORRESPONDIENTES, NI INHABILITADOS O SANCIONADO POR LA SECRETARIA DE LA CONTRALORÍA GENERAL DE LA CIUDAD DE MÉXICO, POR LA SECRETARIA DE LA FUNCIÓN PUBLICA DE LA ADMINISTRACIÓN PUBLICA FEDERAL O AUTORIDADES COMPETENTES DE LOS GOBIERNOS DE LAS ENTIDADES FEDERATIVAS O MUNICIPIOS.
+                                                        }elseif($row_reporte['6.24']!=0||!empty($row_reporte['6.24'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.24	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE NO ME ENCUENTRO EN LOS SUPUESTOS DE IMPEDIMENTOS LEGALES CORRESPONDIENTES, NI INHABILITADOS O SANCIONADO POR LA SECRETARIA DE LA CONTRALORÍA GENERAL DE LA CIUDAD DE MÉXICO, POR LA SECRETARIA DE LA FUNCIÓN PUBLICA DE LA ADMINISTRACIÓN PUBLICA FEDERAL O AUTORIDADES COMPETENTES DE LOS GOBIERNOS DE LAS ENTIDADES FEDERATIVAS O MUNICIPIOS.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.25']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.25']!=0||!empty($row_reporte['6.25'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.25.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.25	EN RELACIÓN A LO SEÑALADO EN EL ARTÍCULO 49 FRACCIÓN XV DE LA LEY DE RESPONSABILIDADES ADMINISTRATIVAS DE LA CIUDAD DE MÉXICO, MANIFIESTO BAJO PROTESTA DE DECIR VERDAD SU CONDICIÓN Y/O LA DE LOS SOCIOS O ACCIONISTAS RESPECTO A LOS SIGUIENTES SUPUESTOS:
+                                                        }elseif($row_reporte['6.25']!=0||!empty($row_reporte['6.25'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.25	EN RELACIÓN A LO SEÑALADO EN EL ARTÍCULO 49 FRACCIÓN XV DE LA LEY DE RESPONSABILIDADES ADMINISTRATIVAS DE LA CIUDAD DE MÉXICO, MANIFIESTO BAJO PROTESTA DE DECIR VERDAD SU CONDICIÓN Y/O LA DE LOS SOCIOS O ACCIONISTAS RESPECTO A LOS SIGUIENTES SUPUESTOS:
                                                             NO  DESEMPEÑO EMPLEO, CARGO O COMISIÓN EN EL SERVICIO PÚBLICO.
-                                                            NO  DESEMPEÑO EMPLEO, CARGO O COMISIÓN EN EL SERVICIO PÚBLICO, SIN EMBARGO, EN CASO DE RESULTAR ADJUDICADO, CON LA FORMALIZACIÓN DEL CONTRATO CORRESPONDIENTE NO SE ACTUALIZA UN CONFLICTO DE INTERÉS                                                    
+                                                            NO  DESEMPEÑO EMPLEO, CARGO O COMISIÓN EN EL SERVICIO PÚBLICO, SIN EMBARGO, EN CASO DE RESULTAR ADJUDICADO, CON LA FORMALIZACIÓN DEORRESPONDIENTE NO SE ACTUALIZA UN CONFLICTO DE INTERÉS                                                    
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.26']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.26']!=0||!empty($row_reporte['6.26'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.26.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.26	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CONOCE Y ACEPTA LAS CONDICIONES DE ENTREGA Y TENDRÁ BAJO SU CARGO LA TRANSPORTACIÓN DE LOS BIENES Y LAS MANIOBRAS DE CARGA Y DESCARGA EN EL LUGAR DE ENTREGA, DE CONFORMIDAD CON LO ESTABLECIDO EN EL PRESENTE OFICIO.                            
+                                                        }elseif($row_reporte['6.26']!=0||!empty($row_reporte['6.26'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.26	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CONOCE Y ACEPTA LAS CONDICIONES DE ENTREGA Y TENDRÁ BAJO SU CARGO LA TRANSPORTACIÓN DE LOS BIENES Y LAS MANIOBRAS DE CARGA Y DESCARGA EN EL LUGAR DE ENTREGA, DE CONFORMIDAD CON LO ESTABLECIDO EN EL PRESENTE OFICIO.                            
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.27']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.27']!=0||!empty($row_reporte['6.27'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.27.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.27	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE EL LUGAR, PLAZO DE ENTREGA, HORARIOS DE RECEPCIÓN Y VERIFICACIÓN DE LOS BIENES ADJUDICADOS SERA CONFORME A LO ESTABLECIDO EN EL PRESENTE OFICIO.                        
+                                                        }elseif($row_reporte['6.27']!=0||!empty($row_reporte['6.27'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.27	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE EL LUGAR, PLAZO DE ENTREGA, HORARIOS DE RECEPCIÓN Y VERIFICACIÓN DE LOS BIENES ADJUDICADOS SERA CONFORME A LO ESTABLECIDO EN EL PRESENTE OFICIO.                        
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.28']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.28']!=0||!empty($row_reporte['6.28'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.28.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.28	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CUANDO SE PRESUMAN DESVIACIÓN DE CALIDAD A LOS BIENES INTEGRADOS EL PROVEEDOR ACEPTA QUE LA “SECRETARÍA DE SALUD DE LA CIUDAD DE MÉXICO” PODRÁ REALIZAR EN CUALQUIER MOMENTO PRUEBAS DE CALIDAD A TRAVÉS DE LABORATORIOS CERTIFICADOS POR LA EMA (ENTIDAD MEXICANA DE ACREDITACIÓN) DURANTE LA VIGENCIA DEL CONTRATO Y QUE LO RESULTADOS DE LAS PRUEBAS SERÁN ENTREGADOS A NOMBRE DE LA SECRETARÍA DE SALUD LOS COSTOS DE LAS PRUEBAS SERÁN A CARGO DEL PROVEEDOR.
+                                                        }elseif($row_reporte['6.28']!=0||!empty($row_reporte['6.28'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.28	MANIFIESTO BAJO PROTESTA DE DECIR VERDAD QUE CUANDO SE PRESUMAN DESVIACIÓN DE CALIDAD A LOS BIENES INTEGRADOS EL PROVEEDOR ACEPTA QUE LA “SECRETARÍA DE SALUD DE LA CIUDAD DE MÉXICO” PODRÁ REALIZAR EN CUALQUIER MOMENTO PRUEBAS DE CALIDAD A TRAVÉS DE LABORATORIOS CERTIFICADOS POR LA EMA (ENTIDAD MEXICANA DE ACREDITACIÓN) DURANTE LA VIGENCIA DEL CONTRATO Y QUE LO RESULTADOS DE LAS PRUEBAS SERÁN ENTREGADOS A NOMBRE DE LA SECRETARÍA DE SALUD LOS COSTOS DE LAS PRUEBAS SERÁN A CARGO DEL PROVEEDOR.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.29']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.29']!=0||!empty($row_reporte['6.29'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.29.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.29	MANIFIESTO BAJO PROTESTA A DECIR VERDAD QUE, EN CASO DE DEVOLUCIÓN O RECHAZO DE LOS BIENES ENTREGADOS, REALIZARA EL CANJE TOTAL DE PRODUCTO POR BIENES DE LA MISMA CALIDAD Y DESCRIPCIÓN QUE LO OFERTADO, EN UN PLAZO NO MAYOR A 5 DÍAS NATURALES CONTADOS A PARTIR DE LA NOTIFICACIÓN POR ESCRITO QUE LA DIRECCIÓN GENERAL DE SERVICIOS MÉDICOS Y URGENCIAS HAGA LA DIRECCIÓN DE MEDICAMENTOS TECNOLOGÍA E INSUMOS Y ESTA ULTIMA A LA DIRECCIÓN DE RECURSOS MATERIALES, ABASTECIMIENTOS Y SERVICIOS.
+                                                        }elseif($row_reporte['6.29']!=0||!empty($row_reporte['6.29'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.29	MANIFIESTO BAJO PROTESTA A DECIR VERDAD QUE, EN CASO DE DEVOLUCIÓN O RECHAZO DE LOS BIENES ENTREGADOS, REALIZARA EL CANJE TOTAL DE PRODUCTO POR BIENES DE LA MISMA CALIDAD Y DESCRIPCIÓN QUE LO OFERTADO, EN UN PLAZO NO MAYOR A 5 DÍAS NATURALES CONTADOS A PARTIR DE LA NOTIFICACIÓN POR ESCRITO QUE LA DIRECCIÓN GENERAL DE SERVICIOS MÉDICOS Y URGENCIAS HAGA LA DIRECCIÓN DE MEDICAMENTOS TECNOLOGÍA E INSUMOS Y ESTA ULTIMA A LA DIRECCIÓN DE RECURSOS MATERIALES, ABASTECIMIENTOS Y SERVICIOS.
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.30']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.30']!=0||!empty($row_reporte['6.30'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.30.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.30	CURRICULUM EMPRESARIAL
+                                                        }elseif($row_reporte['6.30']!=0||!empty($row_reporte['6.30'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.30	CURRICULUM EMPRESARIAL
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.31']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.31']!=0||!empty($row_reporte['6.31'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.31.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.31	CONSTANCIA DE REGISTRO EN EL PADRÓN DE PROVEEDORES DE LA ADMINISTRACIÓN PÚBLICA DE LA CIUDAD DE MÉXICO Y/O REGISTRO EN EL TIANGUIS DIGITAL DEL GOBIERNO DE LA CIUDAD DE MÉXICO
+                                                        }elseif($row_reporte['6.31']!=0||!empty($row_reporte['6.31'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.31	CONSTANCIA DE REGISTRO EN EL PADRÓN DE PROVEEDORES DE LA ADMINISTRACIÓN PÚBLICA DE LA CIUDAD DE MÉXICO Y/O REGISTRO EN EL TIANGUIS DIGITAL DEL GOBIERNO DE LA CIUDAD DE MÉXICO
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.32']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.32']!=0||!empty($row_reporte['6.32'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.32.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.32	OPINIÓN POSITIVA DEL SAT 
+                                                        }elseif($row_reporte['6.32']!=0||!empty($row_reporte['6.32'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.32	OPINIÓN POSITIVA DEL SAT 
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.33']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.33']!=0||!empty($row_reporte['6.33'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.33.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.33	OPINIÓN POSITIVA DEL IMSS
+                                                        }elseif($row_reporte['6.33']!=0||!empty($row_reporte['6.33'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.33	OPINIÓN POSITIVA DEL IMSS
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.34']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.34']!=0||!empty($row_reporte['6.34'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.34.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.34	OPINIÓN POSITIVA DEL INFONAVIT
+                                                        }elseif($row_reporte['6.34']!=0||!empty($row_reporte['6.34'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.34	OPINIÓN POSITIVA DEL INFONAVIT
                                                         </td></tr>
                                                     <!-- 
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['6.35']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['6.35']!=0||!empty($row_reporte['6.35'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/6.35.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.35	NÚMERO DE REGISTRO DE ACREEDOR, EN CASO DE NO TENERLO FAVOR DE TRAMITARLE EN LA DIRECCIÓN DE FINANZAS DE LA SECRETARIA DE SALUD
+                                                        }elseif($row_reporte['6.35']!=0||!empty($row_reporte['6.35'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>6.35	NÚMERO DE REGISTRO DE ACREEDOR, EN CASO DE NO TENERLO FAVOR DE TRAMITARLE EN LA DIRECCIÓN DE FINANZAS DE LA SECRETARIA DE SALUD
                                                         </td></tr>
                                                         -->
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['7']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['7']!=0||!empty($row_reporte['7'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/7.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>7 CONTRATO
+                                                        }elseif($row_reporte['7']!=0||!empty($row_reporte['7'])){ ?><a href="#"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>7 CONTRATO
                                                         </td></tr>
                                                         <tr><td>
                                                         <?php 
                                                         if($row_reporte['8']==0){?><i class="fas fa-file fa-lg text-primary" title="No"></i>
                                                         <?php
-                                                        }elseif($row_reporte['8']!=0||!empty($row_reporte['8'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/8.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Ver"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>8	GARANTÍA
+                                                        }elseif($row_reporte['8']!=0||!empty($row_reporte['8'])){ ?><a href="<?="docs/".$row_reporte['year']."/".$row_reporte['contrato']."/8.pdf"?>" target="_blank"><i class="fas fa-file fa-lg" title="Cuenta con el documento"></i> </a><?php $avance++;}else{echo'<i class="fas fa-file fa-lg text-primary" title="No"></i>';}; ?>8	GARANTÍA
                                                         </td></tr>
 
                                             
@@ -449,7 +451,7 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                                                     </tbody>
                                                 </table>
                                             </div>
-
+                                            
                                             <div class="hidden-print">
                                                 <div class="float-right">
                                                     <a href="javascript:window.print()" class="btn btn-success waves-effect waves-light"><i class="fa fa-print"></i></a>
@@ -458,9 +460,42 @@ if( $resultado = mysqli_query($mysqli, $query) or die()){
                                             </div>
                                         </div>
                                     </div>
-
+                                   
                                 </div>
                             </div> <!-- end row -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="invoice-title">
+                                        <h3 class="m-t-0">Archivos</h3>
+                                        <form action="descargar_directorio.php" method="post">
+                                            <input type="hidden" name="directorio_a_comprimir" value=<?=$directorio_a_comprimir?>>
+                                            <button type="submit" name="descargar_zip">Generar ZIP</button>
+                                        </form>
+                                         <!-- IMPRESION DIRECTORIO -->
+                                        
+                                                      <div>
+                                                     <?php
+                                                        
+                                                        $ruta= $directorio_a_comprimir;
+                                                        error_reporting(0); 
+                                                        $directorio = opendir($ruta); //ruta actual
+                                                        while ($archivo = readdir($directorio)) //obtenemos un archivo y luego otro sucesivamente
+                                                        {
+                                                            if (is_dir($archivo))//verificamos si es o no un directorio
+                                                            {
+                                                                echo ""; //de ser un directorio lo envolvemos entre corchetes
+                                                            }
+                                                            else
+                                                            {
+                                                                echo  '<a target="_blank" href="'.$ruta.'/'.$archivo.'" >' .$archivo .' <br /> </a>'  ;
+                                                            }
+                                                        }
+                                                        ?> 
+                                                      </div>
+                                                    
+                                    </div>
+                                </div>
+                            </div>
                         </div> <!-- panel body -->
                     </div> <!-- end panel -->
 

@@ -2,7 +2,7 @@
 <?php
 #Datos del servidor
 $servername = "localhost";
-$dbname = "feseor5_salud";
+$dbname = "ss2021";
 $username = "root";
 $password = "";
 ?>
